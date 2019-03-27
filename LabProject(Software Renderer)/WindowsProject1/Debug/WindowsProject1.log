@@ -1,0 +1,32 @@
+﻿  stdafx.cpp
+  CGameFramework.cpp
+c:\users\kdk\documents\github\3dgp\labproject(software renderer)\windowsproject1\cgameframework.cpp(25): error C2059: 구문 오류: ';'
+c:\users\kdk\documents\github\3dgp\labproject(software renderer)\windowsproject1\cgameframework.cpp(171): error C2601: 'CGameFramework::CreateRtvAndDsvDescriptorHeaps': 지역 함수 정의가 잘못되었습니다.
+  c:\users\kdk\documents\github\3dgp\labproject(software renderer)\windowsproject1\cgameframework.cpp(153): note: 이 줄에 짝이 되지 않는 '{'가 들어 있습니다.
+c:\users\kdk\documents\github\3dgp\labproject(software renderer)\windowsproject1\cgameframework.cpp(195): error C2601: 'CGameFramework::CreateRenderTargetView': 지역 함수 정의가 잘못되었습니다.
+  c:\users\kdk\documents\github\3dgp\labproject(software renderer)\windowsproject1\cgameframework.cpp(153): note: 이 줄에 짝이 되지 않는 '{'가 들어 있습니다.
+c:\users\kdk\documents\github\3dgp\labproject(software renderer)\windowsproject1\cgameframework.cpp(208): error C2601: 'CGameFramework::CreateDepthStencilView': 지역 함수 정의가 잘못되었습니다.
+  c:\users\kdk\documents\github\3dgp\labproject(software renderer)\windowsproject1\cgameframework.cpp(153): note: 이 줄에 짝이 되지 않는 '{'가 들어 있습니다.
+c:\users\kdk\documents\github\3dgp\labproject(software renderer)\windowsproject1\cgameframework.cpp(245): error C2601: 'CGameFramework::BuildObjects': 지역 함수 정의가 잘못되었습니다.
+  c:\users\kdk\documents\github\3dgp\labproject(software renderer)\windowsproject1\cgameframework.cpp(153): note: 이 줄에 짝이 되지 않는 '{'가 들어 있습니다.
+c:\users\kdk\documents\github\3dgp\labproject(software renderer)\windowsproject1\cgameframework.cpp(248): error C2601: 'CGameFramework::ReleaseObjects': 지역 함수 정의가 잘못되었습니다.
+  c:\users\kdk\documents\github\3dgp\labproject(software renderer)\windowsproject1\cgameframework.cpp(153): note: 이 줄에 짝이 되지 않는 '{'가 들어 있습니다.
+c:\users\kdk\documents\github\3dgp\labproject(software renderer)\windowsproject1\cgameframework.cpp(252): error C2601: 'CGameFramework::OnProcessingMouseMessage': 지역 함수 정의가 잘못되었습니다.
+  c:\users\kdk\documents\github\3dgp\labproject(software renderer)\windowsproject1\cgameframework.cpp(153): note: 이 줄에 짝이 되지 않는 '{'가 들어 있습니다.
+c:\users\kdk\documents\github\3dgp\labproject(software renderer)\windowsproject1\cgameframework.cpp(269): error C2601: 'CGameFramework::OnProcessingKeyboardMessage': 지역 함수 정의가 잘못되었습니다.
+  c:\users\kdk\documents\github\3dgp\labproject(software renderer)\windowsproject1\cgameframework.cpp(153): note: 이 줄에 짝이 되지 않는 '{'가 들어 있습니다.
+c:\users\kdk\documents\github\3dgp\labproject(software renderer)\windowsproject1\cgameframework.cpp(294): error C2601: 'CGameFramework::OnProcessingWindowMessage': 지역 함수 정의가 잘못되었습니다.
+  c:\users\kdk\documents\github\3dgp\labproject(software renderer)\windowsproject1\cgameframework.cpp(153): note: 이 줄에 짝이 되지 않는 '{'가 들어 있습니다.
+c:\users\kdk\documents\github\3dgp\labproject(software renderer)\windowsproject1\cgameframework.cpp(318): error C2601: 'CGameFramework::ProcessInput': 지역 함수 정의가 잘못되었습니다.
+  c:\users\kdk\documents\github\3dgp\labproject(software renderer)\windowsproject1\cgameframework.cpp(153): note: 이 줄에 짝이 되지 않는 '{'가 들어 있습니다.
+c:\users\kdk\documents\github\3dgp\labproject(software renderer)\windowsproject1\cgameframework.cpp(321): error C2601: 'CGameFramework::AnimateObjects': 지역 함수 정의가 잘못되었습니다.
+  c:\users\kdk\documents\github\3dgp\labproject(software renderer)\windowsproject1\cgameframework.cpp(153): note: 이 줄에 짝이 되지 않는 '{'가 들어 있습니다.
+c:\users\kdk\documents\github\3dgp\labproject(software renderer)\windowsproject1\cgameframework.cpp(325): error C2064: 항은 1개의 인수를 받아들이는 함수로 계산되지 않습니다.
+c:\users\kdk\documents\github\3dgp\labproject(software renderer)\windowsproject1\cgameframework.cpp(327): error C2144: 구문 오류: void'은(는) ';' 다음에 와야 합니다.
+c:\users\kdk\documents\github\3dgp\labproject(software renderer)\windowsproject1\cgameframework.cpp(328): error C2601: 'CGameFramework::WaitForGpuComplete': 지역 함수 정의가 잘못되었습니다.
+  c:\users\kdk\documents\github\3dgp\labproject(software renderer)\windowsproject1\cgameframework.cpp(153): note: 이 줄에 짝이 되지 않는 '{'가 들어 있습니다.
+c:\users\kdk\documents\github\3dgp\labproject(software renderer)\windowsproject1\cgameframework.cpp(343): error C2601: 'CGameFramework::FrameAdvance': 지역 함수 정의가 잘못되었습니다.
+  c:\users\kdk\documents\github\3dgp\labproject(software renderer)\windowsproject1\cgameframework.cpp(153): note: 이 줄에 짝이 되지 않는 '{'가 들어 있습니다.
+c:\users\kdk\documents\github\3dgp\labproject(software renderer)\windowsproject1\cgameframework.cpp(153): fatal error C1075: '{': 일치하는 토큰을 찾을 수 없습니다.
+  WindowsProject1.cpp
+  코드를 생성하고 있습니다...

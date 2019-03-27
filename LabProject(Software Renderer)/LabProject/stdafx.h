@@ -39,3 +39,21 @@
 #define RANDOM_COLOR	(0xFF000000 | ((rand() * 0xFFFFFF) / RAND_MAX))
 
 // TODO: 프로그램에 필요한 추가 헤더는 여기에서 참조합니다.
+#include <string>
+#include <wrl.h>
+#include <shellapi.h>
+#include <d3d12.h>
+#include <dxgi1_4.h>
+#include <D3Dcompiler.h>
+#include <DirectXMath.h>
+#include <DirectXPackedVector.h>
+#include <DirectXColors.h>
+#include <DirectXCollision.h>
+using namespace DirectX;
+using namespace DirectX::PackedVector;
+using Microsoft::WRL::ComPtr;#pragma comment(lib, "d3dcompiler.lib")
+#pragma comment(lib, "d3d12.lib")
+#pragma comment(lib, "dxgi.lib")
+
+#define FRAME_BUFFER_WIDTH 640
+#define FRAME_BUFFER_HEIGHT 

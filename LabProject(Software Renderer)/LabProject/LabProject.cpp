@@ -115,10 +115,15 @@ ATOM MyRegisterClass(HINSTANCE hInstance)
 //
 BOOL InitInstance(HINSTANCE hInstance, int nCmdShow)
 {
+	//hInst = hInstance; // 인스턴스 핸들을 전역 변수에 저장합니다.
+
+	//RECT rc = { 0, 0, 640, 480 };
+	//AdjustWindowRect(&rc, WS_OVERLAPPEDWINDOW, TRUE);
+	DWORD dwstyle = WS_OVERLAPPED | WS_CAPTION | WS_MINIMIZEBOX | WS_SYSMENU | WS_BORDER;
 	hInst = hInstance; // 인스턴스 핸들을 전역 변수에 저장합니다.
 
-	RECT rc = { 0, 0, 640, 480 };
-	AdjustWindowRect(&rc, WS_OVERLAPPEDWINDOW, TRUE);
+	RECT rc = { 0, 0, 40, 480 };
+	AdjustWindowRect(&rc, dwstyle, FALSE);
 	int nWidth = rc.right - rc.left;
 	int nHeight = rc.bottom - rc.top;
 	HWND hMainWnd = CreateWindow(szWindowClass, szTitle, WS_OVERLAPPEDWINDOW, 0, 0, nWidth, nHeight, NULL, NULL, hInstance, NULL);
