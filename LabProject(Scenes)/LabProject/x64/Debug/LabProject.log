@@ -1,0 +1,39 @@
+﻿  stdafx.cpp
+  Camera.cpp
+  GameFramework.cpp
+  GameObject.cpp
+c:\users\강동균\desktop\3dgp\3dgp\labproject(scenes)\labproject\gameobject.cpp(265): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  LabProject.cpp
+  Mesh.cpp
+  Player.cpp
+  Scene.cpp
+c:\users\강동균\desktop\3dgp\3dgp\labproject(scenes)\labproject\scene.cpp(588): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+c:\users\강동균\desktop\3dgp\3dgp\labproject(scenes)\labproject\scene.cpp(589): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+c:\users\강동균\desktop\3dgp\3dgp\labproject(scenes)\labproject\scene.cpp(590): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+c:\users\강동균\desktop\3dgp\3dgp\labproject(scenes)\labproject\scene.cpp(591): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+c:\users\강동균\desktop\3dgp\3dgp\labproject(scenes)\labproject\scene.cpp(592): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+c:\users\강동균\desktop\3dgp\3dgp\labproject(scenes)\labproject\scene.cpp(593): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+c:\users\강동균\desktop\3dgp\3dgp\labproject(scenes)\labproject\scene.cpp(594): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+c:\users\강동균\desktop\3dgp\3dgp\labproject(scenes)\labproject\scene.cpp(595): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+c:\users\강동균\desktop\3dgp\3dgp\labproject(scenes)\labproject\scene.cpp(596): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+c:\users\강동균\desktop\3dgp\3dgp\labproject(scenes)\labproject\scene.cpp(597): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+c:\users\강동균\desktop\3dgp\3dgp\labproject(scenes)\labproject\scene.cpp(598): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+c:\users\강동균\desktop\3dgp\3dgp\labproject(scenes)\labproject\scene.cpp(600): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+c:\users\강동균\desktop\3dgp\3dgp\labproject(scenes)\labproject\scene.cpp(601): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+c:\users\강동균\desktop\3dgp\3dgp\labproject(scenes)\labproject\scene.cpp(602): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+c:\users\강동균\desktop\3dgp\3dgp\labproject(scenes)\labproject\scene.cpp(603): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+c:\users\강동균\desktop\3dgp\3dgp\labproject(scenes)\labproject\scene.cpp(604): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+c:\users\강동균\desktop\3dgp\3dgp\labproject(scenes)\labproject\scene.cpp(605): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+c:\users\강동균\desktop\3dgp\3dgp\labproject(scenes)\labproject\scene.cpp(606): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+c:\users\강동균\desktop\3dgp\3dgp\labproject(scenes)\labproject\scene.cpp(607): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+c:\users\강동균\desktop\3dgp\3dgp\labproject(scenes)\labproject\scene.cpp(608): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+c:\users\강동균\desktop\3dgp\3dgp\labproject(scenes)\labproject\scene.cpp(609): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+c:\users\강동균\desktop\3dgp\3dgp\labproject(scenes)\labproject\scene.cpp(610): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+c:\users\강동균\desktop\3dgp\3dgp\labproject(scenes)\labproject\scene.cpp(611): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+c:\users\강동균\desktop\3dgp\3dgp\labproject(scenes)\labproject\scene.cpp(612): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+c:\users\강동균\desktop\3dgp\3dgp\labproject(scenes)\labproject\scene.cpp(613): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+c:\users\강동균\desktop\3dgp\3dgp\labproject(scenes)\labproject\scene.cpp(614): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+c:\users\강동균\desktop\3dgp\3dgp\labproject(scenes)\labproject\scene.cpp(615): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+  Timer.cpp
+  코드를 생성하고 있습니다...
+  LabProject.vcxproj -> C:\Users\강동균\Desktop\3DGP\3DGP\LabProject(Scenes)\x64\Debug\LabProject.exe

@@ -35,10 +35,10 @@ private:
 	int							m_nReferences;
 
 	int							m_nPolygons;
-	CPolygon					**m_ppPolygons;
+	CPolygon					**m_ppPolygons;  //모델좌표계로 표시
 
 public:
-	BoundingOrientedBox			m_xmOOBB;
+	BoundingOrientedBox			m_xmOOBB;// 폴리곤의 점들의배열로 초기화 가능
 
 public:
 	void AddRef() { m_nReferences++; }
