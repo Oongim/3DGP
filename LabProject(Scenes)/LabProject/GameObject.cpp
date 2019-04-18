@@ -179,7 +179,7 @@ void CExplosiveObject::PrepareExplosion()
 {
 	for (int i = 0; i < EXPLOSION_DEBRISES; i++) XMStoreFloat3(&m_pxmf3SphereVectors[i], ::RandomUnitVectorOnSphere());
 
-	m_pExplosionMesh = new CCubeMesh(0.5f, 0.5f, 0.5f);
+	m_pExplosionMesh = new CRailMesh(0.5f, 0.5f, 0.5f);
 }
 
 void CExplosiveObject::Animate(float fElapsedTime)

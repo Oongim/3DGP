@@ -116,12 +116,12 @@ void CGameFramework::OnProcessingKeyboardMessage(HWND hWnd, UINT nMessageID, WPA
 					if (m_pPlayer) delete m_pPlayer;
 					if (m_nScene == 3)
 					{
-						CCubeMesh *pCubeMesh = new CCubeMesh(4.0f, 4.0f, 4.0f);
+						CRailMesh *pRailMesh = new CRailMesh(4.0f, 4.0f, 4.0f);
 						m_pPlayer = new CTerrainPlayer();
 						m_pPlayer->SetPosition(0.0f, 0.0f, 0.0f);
-						m_pPlayer->SetMesh(pCubeMesh);
+						m_pPlayer->SetMesh(pRailMesh);
 						m_pPlayer->SetColor(RGB(255, 0, 0));
-						m_pPlayer->SetMesh(pCubeMesh);
+						m_pPlayer->SetMesh(pRailMesh);
 						m_pPlayer->SetCameraOffset(XMFLOAT3(0.0f, 50.0f, -35.0f));
 					}
 					else
@@ -250,7 +250,7 @@ void CGameFramework::ProcessInput()
 			else
 				m_pPlayer->Rotate(cyDelta, cxDelta, 0.0f);
 		}
-		if (dwDirection) m_pPlayer->Move(dwDirection, 0.15f);
+		if (dwDirection) m_pPlayer->Move(dwDirection, 0.01f);
 	}
 	m_pPlayer->Update(m_GameTimer.GetTimeElapsed());
 }

@@ -51,11 +51,11 @@ public:
 	void SetOOBB(XMFLOAT3& xmCenter, XMFLOAT3& xmExtents, XMFLOAT4& xmOrientation) { m_xmOOBB = BoundingOrientedBox(xmCenter, xmExtents, xmOrientation); }
 };
 
-class CCubeMesh : public CMesh
+class CRailMesh : public CMesh
 {
 public:
-	CCubeMesh(float fWidth = 4.0f, float fHeight = 4.0f, float fDepth = 4.0f);
-	virtual ~CCubeMesh();
+	CRailMesh(float fWidth = 4.0f, float fHeight = 4.0f, float fDepth = 4.0f);
+	virtual ~CRailMesh();
 };
 
 class CWallMesh : public CMesh

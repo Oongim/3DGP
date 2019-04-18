@@ -34,7 +34,7 @@ private:
 	CPlayer						*m_pPlayer = NULL;
 
 	CAirplaneMesh				*m_pAirplaneMesh = NULL;
-	CCubeMesh					*m_pCubeMesh = NULL;
+	CRailMesh					*m_pCubeMesh = NULL;
 
 	int							m_nScenes = 0;
 	int							m_nScene = 0;
