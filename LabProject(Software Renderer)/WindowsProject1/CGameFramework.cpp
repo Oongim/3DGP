@@ -23,7 +23,8 @@ CGameFramework::CGameFramework()
 	m_nFenceValue = 0;
 	m_nWndClientWidth = FRAME_BUFFER_WIDTH;
 	m_nWndClientHeight = FRAME_BUFFER_HEIGHT;
-}bool CGameFramework::OnCreate(HINSTANCE hInstance, HWND hMainWnd)
+}
+bool CGameFramework::OnCreate(HINSTANCE hInstance, HWND hMainWnd)
 {
 	m_hInstance = hInstance;
 	m_hWnd = hMainWnd;
@@ -34,7 +35,8 @@ CGameFramework::CGameFramework()
 	CreateRenderTargetView();
 	CreateDepthStencilView();
 	BuildObjects();
-	//렌더링할 객체(게임 월드 객체)를 생성한다. return(true);
+	//렌더링할 객체(게임 월드 객체)를 생성한다.
+	return(true);
 }
 void CGameFramework::OnDestroy()
 {
@@ -166,7 +168,9 @@ void CGameFramework::CreateCommandQueueAndList()
 		**)&m_pd3dCommandList);
 		//직접(Direct) 명령 리스트를 생성한다.
 	hResult = m_pd3dCommandList->Close();
-		//명령 리스트는 생성되면 열린(Open) 상태이므로 닫힌(Closed) 상태로 만든다. }
+		//명령 리스트는 생성되면 열린(Open) 상태이므로 닫힌(Closed) 상태로 만든다. 
+}
+
 void CGameFramework::CreateRtvAndDsvDescriptorHeaps()
 {
 	D3D12_DESCRIPTOR_HEAP_DESC d3dDescriptorHeapDesc;

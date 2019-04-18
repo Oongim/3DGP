@@ -22,7 +22,11 @@
     <ProjectGuid>{EE18299B-05F9-4236-8D11-55BEA6E6E8FE}</ProjectGuid>
     <RootNamespace>LabProject</RootNamespace>
     <Keyword>Win32Proj</Keyword>
+<<<<<<< HEAD
     <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+=======
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+>>>>>>> f79095670d60afb2647d4d9459dc9c3a8f27231c
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">

@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 #TargetFrameworkVersion=v4.0:PlatformToolSet=v141:EnableManagedIncrementalBuild=false:VCToolArchitecture=Native32Bit:WindowsTargetPlatformVersion=10.0.17134.0
 Debug|x64|C:\Users\kdk\Documents\GitHub\3DGP\LabProject(Scenes)\|
+=======
+#TargetFrameworkVersion=v4.0:PlatformToolSet=v141:EnableManagedIncrementalBuild=false:VCToolArchitecture=Native32Bit:WindowsTargetPlatformVersion=10.0.17763.0
+Debug|x64|C:\Users\강동균\Desktop\3DGP\3DGP\LabProject(Scenes)\|
+>>>>>>> f79095670d60afb2647d4d9459dc9c3a8f27231c

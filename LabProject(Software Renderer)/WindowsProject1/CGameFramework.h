@@ -45,7 +45,8 @@ private:
 #endif
 	D3D12_VIEWPORT m_d3dViewport;
 	D3D12_RECT m_d3dScissorRect;
-	//뷰포트와 씨저 사각형이다. public:
+	//뷰포트와 씨저 사각형이다.
+public:
 	CGameFramework();
 	~CGameFramework();
 	bool OnCreate(HINSTANCE hInstance, HWND hMainWnd);
